@@ -1,0 +1,49 @@
+*,
+header, body {
+    font-family: helvetica ;
+}
+body {
+    background-color: black;
+
+}
+ header {
+            background-color: #7961b4;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: whitesmoke;
+            text-decoration: none;
+            padding: 20px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: black;
+        }
+
+
+
+    .card-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .card {
+      width: 40%;
+      color: darkgrey;
+      padding: 10px;
+      margin: 10px;
+    }
+
+#biografi {
+    width: 1456px;
+    background-color: darkgrey;
+}
